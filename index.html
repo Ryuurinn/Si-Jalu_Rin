@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Si Jalu - Connect Quest Givers and Takers</title>
+		
+		<!-- React and React Router -->
+		<script src="https://cdn.ezsite.ai/static/react.production.min.js"></script>
+		<script src="https://cdn.ezsite.ai/static/react-dom.production.min.js"></script>
+		<script src="https://cdn.ezsite.ai/static/react-router.production.min.js"></script>
+		<script src="https://cdn.ezsite.ai/static/react-router-dom.production.min.js"></script>
+		
+		<!-- Babel for JSX -->
+		<script src="https://cdn.ezsite.ai/static/babel.min.js"></script>
+		
+		<!-- TailwindCSS -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		
+		<!-- Font Awesome Icons -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+		
+		<!-- Custom Styles -->
+		<link rel="stylesheet" href="styles/globals.css">
+		<link rel="stylesheet" href="styles/components.css">
+		<script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        mint: '#c9ffcf',
+                        primary: '#19591f',
+                        dark: '#202b21',
+                        light: '#ffffff'
+                    }
+                }
+            }
+        }
+    
+		</script>
+		<script project-code="7omjcizgxdrb" src="https://ezsite.ai/ezsite-api.js"></script>
+		<script src="https://ezsite.ai/ezsite-chatbot.js"></script>
+	<meta name="description" content="Join Si Jalu, the innovative platform connecting quest givers with capable quest takers. Explore categories like transportation, education, and more."><meta property="og:title" content="Si Jalu - Your Quest Connection Platform"><meta property="og:description" content="Discover Si Jalu, a responsive platform for connecting individuals seeking help with those ready to assist. Join and explore today!"><meta name="twitter:title" content="Si Jalu: Connect & Collaborate 🌟"><meta name="twitter:description" content="Join Si Jalu, the platform for quest givers and takers. Mobile-friendly, interactive, and easy to use!"></head>
+	<body class="bg-light text-dark">
+		<div id="root"></div>
+		<div id="modal-root"></div>
+		
+		<!-- Components -->
+		<script type="text/babel" src="components/Navbar.js"></script>
+		<script type="text/babel" src="components/Hero.js"></script>
+		<script type="text/babel" src="components/QuestTypes.js"></script>
+		<script type="text/babel" src="components/QuestCard.js"></script>
+		<script type="text/babel" src="components/QuestForm.js"></script>
+		<script type="text/babel" src="components/ImageGallery.js"></script>
+		<script type="text/babel" src="components/Modal.js"></script>
+		<script type="text/babel" src="components/Footer.js"></script>
+		<script type="text/babel" src="components/Tabs.js"></script>
+		
+		<!-- Pages -->
+		<script type="text/babel" src="pages/Home.js"></script>
+		<script type="text/babel" src="pages/GiveQuest.js"></script>
+		<script type="text/babel" src="pages/TakeQuest.js"></script>
+		<script type="text/babel" src="pages/About.js"></script>
+		<script type="text/babel" src="pages/UserProfile.js"></script>
+		<script type="text/babel" src="pages/Statistics.js"></script>
+		
+		<!-- Auth Pages -->
+		<script type="text/babel" src="pages/Login.js"></script>
+		<script type="text/babel" src="pages/SignUp.js"></script>
+		<script type="text/babel" src="pages/EmailVerification.js"></script>
+		<script type="text/babel" src="pages/PhoneVerification.js"></script>
+		
+		<!-- Points Management -->
+		<script type="text/babel" src="pages/PointsTopUp.js"></script>
+		<script type="text/babel" src="pages/PointsCashOut.js"></script>
+		
+		<!-- Utils -->
+		<script type="text/babel" src="utils/data.js"></script>
+		<script type="text/babel" src="utils/helpers.js"></script>
+		
+		<!-- Main App -->
+		<script type="text/babel" src="app.js"></script>
+	</body>
+</html>
